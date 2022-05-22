@@ -1,5 +1,5 @@
 
-print "F = Field of characteristic 3"
+print("F = Field of characteristic 3")
 p = 3
 F.<x> = PolynomialRing(GF(p))
 
