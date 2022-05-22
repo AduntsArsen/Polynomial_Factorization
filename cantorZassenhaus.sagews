@@ -54,7 +54,8 @@ def factorize(U,f,j):
     return factors
 
 def Main():
-    U = x^7 + (2*x^5) + x^3 + 2*x
+    #U = x^7 + (2*x^5) + x^3 + 2*x
+    U = x^12 + x^8 + x^7 + x^6 + x^2 + x + 1
     #U = x^2 + x + 1
     dU = diff(U,x)
     GCD = gcd(U,dU)
