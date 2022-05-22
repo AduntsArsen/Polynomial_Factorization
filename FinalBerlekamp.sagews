@@ -73,6 +73,7 @@ def convertToPoly(H):
 def Main():
     #Define thepolynomial and check for squarefreeness
     U = (x)^5 + (x)^4 + 1
+    #U = x^12 + x^8 + x^7 + x^6 + x^2 + x + 1
     dU = diff(U,x)
     GCD = gcd(U,dU)
     gcdCheck(GCD,U)
